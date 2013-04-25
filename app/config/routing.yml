@@ -1,0 +1,4 @@
+coolman_task_manager:
+    resource: "@CoolmanTaskManagerBundle/Resources/config/routing.yml"
+    prefix:   /
+

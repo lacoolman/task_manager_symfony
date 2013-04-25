@@ -1,0 +1,13 @@
+parameters:
+#    coolman_task_manager.example.class: Coolman\TaskManagerBundle\Example
+
+services:
+   index_model:
+       class: Coolman\TaskManagerBundle\Model\IndexModel
+       calls:
+              - [ setContainer,  [@service_container] ]
+
+   task_model:
+      class: Coolman\TaskManagerBundle\Model\TaskModel
+      calls:
+             - [ setContainer,  [@service_container] ]

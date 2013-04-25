@@ -1,0 +1,14 @@
+parameters:
+    database_driver: pdo_pgsql
+    database_host: 127.0.0.1
+    database_port: '5430'
+    database_name: task_manager
+    database_user: admin
+    database_password: password
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: 1aa802dc23a6d722e30322a24d7e282232a8088f
+    database_path: null
